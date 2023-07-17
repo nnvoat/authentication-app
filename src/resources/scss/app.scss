@@ -1,0 +1,66 @@
+@import "variables";
+
+.homeContainer {
+  width: 30%;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.user-profile {
+  width: 96px;
+  height: 96px;
+  border-radius: 10%;
+}
+
+.footer-home {
+  width: 450px;
+}
+
+.btn-edit {
+  padding: 0.4rem 2.2rem;
+  margin: 0.8rem 0;
+  border-radius: 1rem;
+  background-color: inherit;
+}
+
+.btn-edit a {
+  color: #6c757d;
+}
+
+.form-floating {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: calc(30%);
+  left: 1rem;
+  color: #6c757d;
+}
+
+.form-floating .form-control {
+  padding-left: 2.5rem;
+}
+
+.logo-dev {
+  margin-left: 0.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.link-dev:hover {
+  text-decoration: none;
+}
+
+.link-dev i {
+  color: #e5340b;
+}
+
+.navbar-icon i {
+  color: #e5340b;
+}
