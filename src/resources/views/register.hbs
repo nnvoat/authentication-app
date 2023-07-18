@@ -1,6 +1,6 @@
 <div class="row justify-content-center">
   <div class="mt-4 card p-4 col-4 p-0">
-    <form>
+    <form method="POST" action="/inforegister">
       <div>
         <a
           href="/register"
@@ -31,6 +31,7 @@
           id="email"
           aria-describedby="emailHelp"
           placeholder="Email"
+          name="email"
         />
       </div>
       <div class="form-group form-floating">
@@ -40,6 +41,7 @@
           class="form-control"
           id="password"
           placeholder="Password"
+          name="password"
         />
       </div>
       <button type="submit" class="btn btn-primary w-100">Starting coding new</button>
