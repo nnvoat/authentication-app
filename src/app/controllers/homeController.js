@@ -7,14 +7,7 @@ const {
 class homeController {
   register(req, res, next) {
     // [GET] /register
-    Authentication.find({})
-      .then((auth) => {
-        res.render("register", {
-          auth: mutipleMongooseToObject(auth),
-        });
-        console.log(auth);
-      })
-      .catch(next);
+    res.render("register");
   }
 
   inforegister(req, res, next) {
